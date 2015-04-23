@@ -1,0 +1,48 @@
+body {
+  background-color: #9b59b6;
+}
+
+.loader {
+  width: 35px;
+  text-align: center;
+}
+
+.loader > div {
+  width: 8px;
+  height: 8px;
+  background-color: #fff;
+
+  border-radius: 100%;
+  display: inline-block;
+  -webkit-animation: fadeDelay 1.4s infinite ease-in-out;
+  animation: fadeDelay 1.4s infinite ease-in-out;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.loader .circle1 {
+  -webkit-animation-delay: -0.32s;
+  animation-delay: -0.32s;
+}
+
+.loader .circle2 {
+  -webkit-animation-delay: -0.16s;
+  animation-delay: -0.16s;
+}
+
+.loader .circle3 {
+  -webkit-animation-delay: -0.08s;
+  animation-delay: -0.08s;
+}
+
+@-webkit-keyframes fadeDelay {
+  0% { opacity: 1; }
+  50% { opacity: 0; } 
+  100% { opacity: 1; }
+}
+
+@keyframes fadeDelay {
+  0% { opacity: 1; }
+  50% { opacity: 0; } 
+  100% { opacity: 1; }
+}
