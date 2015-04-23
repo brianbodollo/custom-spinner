@@ -3,7 +3,8 @@ body {
 }
 
 .loader {
-  width: 35px;
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
 }
 
